@@ -1,79 +1,62 @@
                               /* HEADER */
-.wraper{
-    background-size: auto;
-    position: absolute;
-width: 1440px;
-height: 6534px;
-width: auto;
 
-background: #ffffff;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
-
- 
-
-.header1{
-margin-left: 15px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-
-color: #000000;
-width: 150px;
-background-color: #F4F1EE;
-height: 70px;
-border-right: 0px;
-
+  .wraper{
+width: 100%;
+height: 170vh;
+background: #F4F1EE;
 }
 
 .header{
-    width: 1440px;
-    height: 1196px;
-    background: #F4F1EE;
     display: flex;
-
-    flex-direction: row;
-
-    justify-content: flex-start;
-
-    /* border: 5px solid black; */
-
-    padding: 5px;
-    background: #F4F1EE;
+    justify-content:space-around;
+    align-items: center;
+    position: fixed;
+    background: #eae0d8;
+    right: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    
 }
-.logo{
-    width: 150px;
-    background-color: #F4F1EE;
-    height: 70px;
-    border-right: 0px;
-    float: left;
- font-size: large;
+ul{
+    list-style: none;
 }
-.search{
-    margin-top: 7px;
-    width: 150px;
-    background-color: #F4F1EE;
-    height: 70px;
-    border-right: 0px;
-    float: left;
- font-size: large;
+ul, li{
+    display: inline-block;
+    margin:  5px 20px;
 }
-.note{
-    margin-top: 17px;
-    width: 150px;
-    background-color: #F4F1EE;
-    height: 70px;
-    border-right: 0px;
-    float: left;
- font-size: large;}
+/* ul, li, a::after{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 17 px;
+}
+ul, li, a::after{
+    content: '';
+width: 0;
+height: 2px;
+background: #d59a5f;
+display: block;
+transition: 0.2s linear;
+}
+ul, li, a:hover::after{
+    width: 100%;}
+    ul, li, a:hover{
+        color: #d59a5f;
 
+    } */
+.golovna{
+    background: #F4F1EE; 
+}
 .coffee{
-    position: absolute;
+position: absolute;
 width: 511px;
 height: 358px;
 left: 828.66px;
@@ -85,23 +68,16 @@ width: 646px;
 height: 136px;
 left: 270px;
 top: 207px;
-
 font-family: 'Oleo Script';
 font-style: normal;
 font-weight: 400;
 font-size: 70px;
 line-height: 70px;
-/* or 100% */
-
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-
 color: #000000;
-
-/* border: 1px solid #000000;
- */
 }
 
 .slogon{
@@ -111,28 +87,26 @@ width: 646px;
 height: 136px;
 left: 156px;
 top: 361px;
-
 font-family: 'Oleo Script';
 font-style: normal;
 font-weight: 400;
 font-size: 40px;
 line-height: 70px;
-/* or 175% */
-
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-
 color: #000000;
 }
+
 .button{
-    position: absolute;
+position: absolute;
 width: 135px;
 height: 41px;
 left: 156px;
 top: 571px;
 }
+
 .a1{
     position: absolute;
 width: 349px;
@@ -143,7 +117,7 @@ top: 847px;
 background: url(koryst-kavy_sitewebukr-1.jpg);
 }
 .a2{
-    position: absolute;
+ position: absolute;
 width: 350px;
 height: 256px;
 left: 545px;
@@ -151,23 +125,22 @@ top: 847px;
 
 }
 .a3{
-    position: absolute;
+position: absolute;
 width: 350px;
 height: 256px;
 left: 925px;
 top: 847px;
 }
 .fon1{
-    position: absolute;
+position: absolute;
 width: 350px;
 height: 245px;
 left: 149px;
 top: 869px;
-
 background: #D48A5C;
 }
 .fon2{
-    position: absolute;
+position: absolute;
 width: 350px;
 height: 245px;
 left: 530px;
@@ -176,7 +149,7 @@ top: 869px;
 background: #D48A5C;
 }
 .fon3{
-    position: absolute;
+position: absolute;
 width: 350px;
 height: 245px;
 left: 910px;
@@ -184,7 +157,4 @@ top: 869px;
 
 background: #D48A5C;}
 
-                                 /* MAIN */
-/* .detalno{
-    margin-top: 1225px;
-} */
+     
